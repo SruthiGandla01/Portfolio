@@ -28,7 +28,7 @@
 
 ## 🚀 Overview
 
-This is my personal portfolio website built with React. It showcases my recent projects, technical skills, certifications, and resume — all in one place. You can fork this repo and customize it to build your own!
+This is my personal portfolio website built with React. It showcases my recent projects, technical skills, certifications, experience, and resume — all in one place. You can fork this repo and customize it to build your own!
 
 ## 💻 Built With
 
