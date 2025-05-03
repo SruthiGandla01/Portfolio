@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            They said "follow your passion," so here I am — chasing data across <b className="purple"> dashboards, SQL queries, and machine learning models.</b> 📈
               <br />
-              <br />I am fluent in classics like
+              <br />Fluent in the art of making sense out of chaos 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> (thanks, Python, SQL, Tableau). </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Currently plotting (pun intended)  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">insights, forecasts, </b> and
+                and the occasional coffee run. ☕
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              When I’m not busy convincing
               <i>
-                <b className="purple">
+                <b className="purple"> Excel
                   {" "}
-                  Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                to cooperate, you’ll find me building smarter solutions on 
+                <b className="purple"> GCP and Airflow
+                </b> — because why make life easy?
+                </i>
+              <br />
+              <br />
+              _"Turning messy datasets into "aha!" moments — one caffeine shot at a time."_ 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +63,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/SruthiGandla01"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/sruthi_gandla"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sruthi-gandla-38464b206/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/_.sru.thi._/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -599,6 +599,57 @@ button:focus {
   }
 }
 /* --------- */
+/* Experience */
+/* --------- */
+
+.timeline-container {
+  position: relative;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 2px;
+  height: 100%;
+  background-color: #a020f0; /* Purple line */
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline-dot {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-right: 30px;
+  box-shadow: 0 4px 8px rgba(160, 32, 240, 0.3);
+}
+
+.timeline-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+
+/* --------- */
 /* Resume */
 /* --------- */
 

@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Sruthi Gandla !</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            A passionate Data Analyst and Engineer currently pursuing my Master’s in Data Analytics and Engineering at Northeastern University, Boston.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I aspire to bridge the gap between data and strategic business outcomes.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from analyzing datasets and deploying models, some of my favorite activities include:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring the latest trends in Data Science & AI
+            </li>
+            <li className="about-activity"> 
+              <ImPointRight /> Writing insightful reports and storytelling with data
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Traveling and experiencing new cultures
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Designing intuitive dashboards and UIs
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          "Data is not just numbers; it's a story waiting to be told."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Sruthi</footer>
         </blockquote>
       </Card.Body>
     </Card>
