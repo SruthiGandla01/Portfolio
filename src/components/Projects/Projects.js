@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Market from "../../Assets/Projects/market.jpeg";
+import EEG from "../../Assets/Projects/EEG.jpg";
+import Customer from "../../Assets/Projects/Customersegment.jpg";
+import Steam from "../../Assets/Projects/Steam-Select.jpg";
+import Customerchurn from "../../Assets/Projects/Customerchurn.png";
+import Stock from "../../Assets/Projects/Stock.jpeg";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Steam}
               isBlog={false}
               title="Steam Game Recommendation system"
               description="A Steam game recommendation system that suggests personalized games based on user behavior and game genres. Built using a hybrid (KNN + content-based) model, deployed with Flask on GCP Kubernetes, enabling scalable, real-time recommendations"
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Stock}
               isBlog={false}
               title="Stock Market Prediction using LSTM"
               description="Built a deep learning-based stock market prediction system to forecast next-day market movements using historical price and economic data. Developed and compared CNN and LSTM models, applying advanced preprocessing like sequence windowing, SMOTE balancing, and precision-recall optimization to improve predictive accuracy. This system helps identify market trends more reliably, supporting better investment decision-making by modeling both short-term patterns and long-term dependencies in financial data."
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Customer}
               isBlog={false}
               title="Customer Segmentation"
               description="A customer segmentation system that groups users based on purchasing behavior to improve marketing precision. Built using RFM analysis and K-means clustering in Python, it boosted targeted marketing effectiveness and business decision-making by over 15%."
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Market}
               isBlog={false}
               title="Market Basket Analysis"
               description="Analyzed supermarket transactions to uncover product association patterns for smarter inventory and marketing strategies. Developed using MLXtend’s Apriori algorithm and Tableau visualizations, leading to a 25% boost in decision-making accuracy."
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Customerchurn}
               isBlog={false}
               title="AI-based Customer Retention Predictor"
               description="A customer churn prediction system for the banking sector that identifies high-risk customers likely to leave. Built using machine learning models (Logistic Regression, Decision Tree, Random Forest) after comprehensive preprocessing, EDA, and feature engineering on real-world banking data. It enables banks to develop targeted retention strategies and reduce customer loss, driving revenue protection."
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={EEG}
               isBlog={false}
               title="EEG Based Seizure Prediction System"
               description="A machine learning model designed to classify EEG signals and predict epileptic seizures for improved neurological care. The system extracts time-domain and frequency-based features from EEG data and applies models like Decision Tree and CNN, with the Decision Tree achieving 83% accuracy. It enables early seizure detection, offering a proactive approach to epilepsy management and enhancing patient quality of life."
